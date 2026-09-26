@@ -6,7 +6,7 @@ int main(void)
     int b;
     int temp;
 
-    printf("请输入两个整数（空格分开）：");
+    printf("请输入两个不同整数（空格分开）：\n");
     scanf("%d %d", &a, &b);
 
     printf("交换前:a = %d, b = %d\n", a, b);
